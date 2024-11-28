@@ -109,6 +109,11 @@ export default function Home() {
         <div className="absolute inset-0 bg-grid-pattern opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         
+        {/* Gradient Orbs */}
+        <div className="gradient-orb gradient-orb-1" />
+        <div className="gradient-orb gradient-orb-2" />
+        <div className="gradient-orb gradient-orb-3" />
+        
         <motion.div 
           className="relative max-w-5xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
@@ -138,7 +143,9 @@ export default function Home() {
       <section className="relative py-24 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
-        
+         <div className="gradient-orb gradient-orb-1" style={{top:'30%'}} />
+        <div className="gradient-orb gradient-orb-2"   style={{right:'100px'}}/>
+        <div className="gradient-orb gradient-orb-3" style={{bottom:'30%'}}/>
         <motion.div 
           className="relative max-w-5xl mx-auto"
           initial={{ opacity: 0, y: 20 }}

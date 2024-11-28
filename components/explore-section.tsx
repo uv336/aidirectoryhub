@@ -79,8 +79,13 @@ export function ExploreSection({ showAllTools = false }: ExploreSectionProps) {
       <div className="absolute inset-0 bg-grid-pattern opacity-30" />
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
       
+      {/* Gradient Orbs */}
+      <div className="gradient-orb gradient-orb-1" />
+     <div className="gradient-orb gradient-orb-2"   style={{right:'50px'}}/>
+      <div className="gradient-orb gradient-orb-3" />
+      
       <div className="relative max-w-6xl mx-auto">
-        {/* Header Section */}
+        {/* Rest of the component remains exactly the same */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
